@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(2.jpg);
+    background-position: end;
+    align-items: center;
+    text-align: center;
+    margin-left: 0.19%;
+    margin-right: 0.19%;
+    margin-top: 0.19%;
+    margin-bottom: 0.19%;
+}
+
+.head{
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+
+.head h2{
+    font-size: 6vh;
+    margin-top: 2%;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.tb{
+    display:grid;
+    text-align: center;
+    width: 99.8%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ tr{
+    background-image: url(2.jpg);
+    color: white;
+    text-align: center;
+}
+
+th{
+    padding: 0.3%;
+    font-weight: bold;
+}
+td{
+    padding: 0.3%;
+}

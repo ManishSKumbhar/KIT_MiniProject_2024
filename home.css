@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff31;
+    background-size: cover;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    color: #000000;
+    padding: 5px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background: url(2.jpg); 
+    border: 3px solid;
+}
+
+header h1{
+    padding-left: 40px;
+    padding-top: 18px;
+    text-align: center;
+    font-weight: bold;
+    background-size: cover;
+}
+
+nav {
+    text-align: center;
+    margin-top: 15%;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: url(2.jpg);
+    background-position: 550px;
+    border: 2px solid #333;
+    padding: 15px 50px;
+    margin: 0 40px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.btn li{
+    text-decoration: none;
+    padding-left: 80px;
+    list-style-type: none;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.btn input{
+    pointer-events: visible;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.623);
+    margin: 0 10px;
+    padding: 0px 20px;
+    text-align: center;
+    background-color: white;
+}
+.announce{
+    display: flex;
+
+}

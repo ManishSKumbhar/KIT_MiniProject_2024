@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel = "stylesheet" href="register.css">
+</head>
+<script src="register.js"></script>
+<body>
+    <div class="wrapper">
+        <form action="home.html" name="myForm" onsubmit="return validateForm()" method="post">
+            <h1>Admin Login</h1>
+            <div class="input-box" id="name">
+                <input type="text" name="fname" placeholder="Username" required ><span class="formerror"></span>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box" id="email">
+                <input type="email" name="femail" placeholder="email" required ><span class="formerror"></span>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box" id="password">
+                <input type="password" name="fpass" placeholder="Password" required ><span class="formerror"></span>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box" id="cpassword">
+                <input type="password" name="fcpass" placeholder="*Confirm Password" required ><span class="formerror"></span>
+                <i class='bx bxs-user'></i>
+            </div>
+            <input type="submit" class="btn" value="Register" >
+        </form>
+    </div> 
+ </form>
+</body>
+</html>

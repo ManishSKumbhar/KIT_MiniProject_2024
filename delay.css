@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    justify-content: center;
+    background:url(2.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    backdrop-filter: blur(8px);
+}
+
+.input-box{
+    display: flex;
+    position: relative;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    color: black;
+    border: 10px;
+    padding-left: 400px;
+}
+
+.input-box2{
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    color: black;
+    border: 10px;
+    padding-left: 400px;
+    padding-top: 30px;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+.input-box input{
+    padding: 5px;
+    width: 400px;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.input-box i {
+
+    padding-top: 30px;
+}
+
+.input-box .one{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-box2 input{
+    padding: 5px;
+    width: 400px;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+
+
+.input-box2 .two{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.btn{
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 480px;
+    margin-left: 20px;
+    margin-top: 30px ;
+
+}
+.btn button{
+    align-items: center;
+    width: 100px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn a{
+    align-items: center;
+    width: 100px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn i{
+    padding-right: 30px;
+}
